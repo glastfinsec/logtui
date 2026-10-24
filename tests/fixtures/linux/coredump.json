@@ -1,0 +1,4 @@
+[
+  {"time": 1698000000, "pid": 1234, "comm": "myapp", "signal": 11, "exe": "/usr/bin/myapp"},
+  {"timestamp": "2023-10-22T18:00:00+00:00", "pid": 5678, "comm": "game", "signal": "SIGSEGV"}
+]

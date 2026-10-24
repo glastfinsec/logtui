@@ -1,0 +1,42 @@
+[
+    {
+        "TimeCreated":  "2026-10-23T21:27:30.1063598+05:30",
+        "Id":  1,
+        "LevelDisplayName":  "Information",
+        "ProviderName":  "Microsoft-Windows-IsolatedUserMode",
+        "Message":  "Secure Trustlet \\??\\C:\\WINDOWS\\System32\\NgcIso.exe Id 6 and Pid 197992 started with status STATUS_SUCCESS.",
+        "LogName":  "System"
+    },
+    {
+        "TimeCreated":  "2026-10-23T21:27:30.1053897+05:30",
+        "Id":  5,
+        "LevelDisplayName":  "Information",
+        "ProviderName":  "Microsoft-Windows-IsolatedUserMode",
+        "Message":  "Secure Trustlet NULL Id 0 and Pid 0 started with status STATUS_SUCCESS.",
+        "LogName":  "System"
+    },
+    {
+        "TimeCreated":  "2026-10-23T21:23:54.4871176+05:30",
+        "Id":  566,
+        "LevelDisplayName":  "Information",
+        "ProviderName":  "Microsoft-Windows-Kernel-Power",
+        "Message":  "The system session has transitioned from 188 to 190.\r\n\r\nReason InputHid \r\n\r\nBootId: 134",
+        "LogName":  "System"
+    },
+    {
+        "TimeCreated":  "2026-10-23T21:11:33.4172732+05:30",
+        "Id":  566,
+        "LevelDisplayName":  "Information",
+        "ProviderName":  "Microsoft-Windows-Kernel-Power",
+        "Message":  "The system session has transitioned from 187 to 188.\r\n\r\nReason SessionUnlock \r\n\r\nBootId: 134",
+        "LogName":  "System"
+    },
+    {
+        "TimeCreated":  "2026-10-23T21:01:34.3297069+05:30",
+        "Id":  566,
+        "LevelDisplayName":  "Information",
+        "ProviderName":  "Microsoft-Windows-Kernel-Power",
+        "Message":  "The system session has transitioned from 185 to 187.\r\n\r\nReason InputAccelerometer \r\n\r\nBootId: 134",
+        "LogName":  "System"
+    }
+]

@@ -1,0 +1,1 @@
+"""Setup and detection package."""

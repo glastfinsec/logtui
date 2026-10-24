@@ -1,0 +1,17 @@
+[category.wifi]
+sources = ["NetworkManager", "wpa_supplicant", "WLAN-AutoConfig", "iwlwifi", "ath"]
+keywords = ["wifi", "wlan", "802.11", "deauth", "iwlwifi", "ath", "wireless"]
+
+[category.bluetooth]
+sources = ["bluetoothd", "Bluetooth", "bluetooth"]
+keywords = ["bluetooth", "btusb", "hci", "rfkill"]
+
+[category.crash]
+keywords = ["segfault", "core dumped", "crash", "exception", "BugCheck", "EXCEPTION_ACCESS_VIOLATION", "coredump"]
+
+[category.reboot]
+sources = ["Kernel-Power", "kernel", "mce", "BugCheck"]
+keywords = ["unexpected shutdown", "panic", "watchdog", "thermal", "reboot"]
+
+[category.hang]
+keywords = ["not responding", "hang", "Application Hang", "OOM", "out of memory", "not responding"]

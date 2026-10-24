@@ -1,0 +1,4 @@
+{"__REALTIME_TIMESTAMP":"1698000000000000","_SOURCE_REALTIME_TIMESTAMP":"1698000000000000","PRIORITY":"3","SYSLOG_IDENTIFIER":"kernel","MESSAGE":"segfault at 0 ip 00007f... sp 00007fff... error 4 in app[...]","_SYSTEMD_UNIT":"app.service","_COMM":"app"}
+{"__REALTIME_TIMESTAMP":"1698000060000000","PRIORITY":"4","SYSLOG_IDENTIFIER":"NetworkManager","MESSAGE":"wifi: deauth from AP","_COMM":"NetworkManager"}
+{"__REALTIME_TIMESTAMP":"1698000120000000","PRIORITY":"6","SYSLOG_IDENTIFIER":"bluetoothd","MESSAGE":"bluetooth device connected","_COMM":"bluetoothd"}
+{"__REALTIME_TIMESTAMP":"1698000180000000","PRIORITY":"2","SYSLOG_IDENTIFIER":"kernel","MESSAGE":"thermal shutdown","_SYSTEMD_UNIT":"kernel"}
