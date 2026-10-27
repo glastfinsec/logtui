@@ -179,7 +179,7 @@ class LogTUI(App):
         row_key = event.row_key
         key = row_key.value if hasattr(row_key, "value") else str(row_key)
         e = getattr(self, "_row_events", {}).get(key)
-        self.query_one("#detail", DetailPane).show_event(e)
+        self.query_one("#detail", DetailPane).show_event(e, all_events=self.filtered)
 
     def on_input_changed(self, event: Input.Changed) -> None:
         if event.input.id == "filter":

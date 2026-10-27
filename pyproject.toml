@@ -12,7 +12,12 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
-dev = ["pytest>=8", "ruff>=0.5"]
+dev = [
+    "pytest>=8.3,<8.4",
+    "pytest-asyncio>=0.24,<0.25",
+    "pytest-textual-snapshot>=1.1,<2",
+    "ruff>=0.5",
+]
 
 [project.scripts]
 logtui = "logtui.__main__:main"
